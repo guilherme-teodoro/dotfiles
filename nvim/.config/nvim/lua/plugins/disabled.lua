@@ -1,5 +1,5 @@
 return {
-  { "bufferline.nvim", enabled = false },
+  -- { "bufferline.nvim", enabled = false },
   {
     "indent-blankline.nvim",
     enabled = false,

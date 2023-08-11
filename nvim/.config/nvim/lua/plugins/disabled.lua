@@ -9,5 +9,4 @@ return {
     enabled = false,
   },
   { "nvim-notify", enabled = false },
-  { "neotree.nvim", enabled = false },
 }

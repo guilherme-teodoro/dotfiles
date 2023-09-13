@@ -44,4 +44,14 @@ return {
       },
     },
   },
+  {
+    "piersolenski/telescope-import.nvim",
+    requires = "nvim-telescope/telescope.nvim",
+    config = function()
+      require("telescope").load_extension("import")
+    end,
+    keys = {
+      { "<leader>ct", "<cmd>Telescope import<cr>", desc = "Telescope import" },
+    },
+  },
 }

@@ -1,5 +1,4 @@
 return {
-  -- { "bufferline.nvim", enabled = false },
   {
     "indent-blankline.nvim",
     enabled = false,
@@ -8,7 +7,14 @@ return {
     "mini.indentscope",
     enabled = false,
   },
-  { "nvim-notify", enabled = false },
-  { "nvim-treesitter/nvim-treesitter-context", enabled = false },
+
   { "L3MON4D3/LuaSnip", enabled = false },
+
+  {
+    "snacks.nvim",
+    opts = {
+      indent = { enabled = false },
+      scroll = { enabled = false },
+    },
+  },
 }

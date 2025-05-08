@@ -1,7 +1,7 @@
-font_family      FiraCode Nerd Font
-bold_font        FiraCode Nerd Font Bold
-# italic_font      Victor Mono Medium Italic
-# bold_italic_font Victor Mono Bold Italic
+font_family      MonoLisa Regular Nerd Font Complete Mono
+bold_font        MonoLisa Bold Nerd Font Complete Mono
+italic_font      Victor Mono Medium Italic
+bold_italic_font Victor Mono Bold Italic
 
 font_size 16.0
 
@@ -34,6 +34,6 @@ map kitty_mod+minus change_font_size all -2.0
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Storm
+# Tokyo Night Moon
 include current-theme.conf
 # END_KITTY_THEME
